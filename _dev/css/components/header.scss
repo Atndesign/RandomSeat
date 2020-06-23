@@ -1,0 +1,11 @@
+.header {
+    padding-top: $spacer * 2;
+    margin-bottom: $spacer * 2;
+
+    .header__title {
+        text-align: center;
+        font-weight: 900;
+        text-transform: uppercase;
+        margin-right: $spacer;
+    }
+}
