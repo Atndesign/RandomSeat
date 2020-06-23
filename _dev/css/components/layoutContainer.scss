@@ -1,0 +1,19 @@
+.layout__container {
+    position: relative;
+
+    .layout__student {
+        transition: 0.2s ease-in-out;
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: inline-block;
+        background-color: $primary;
+        padding: $spacer;
+        width: auto;
+        border-radius: 100%;
+
+        .student__name {
+            color: white;
+        }
+    }
+}
